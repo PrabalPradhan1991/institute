@@ -1,0 +1,275 @@
+*{
+	box-sizing: border-box;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Arial", "Helvetica", sans-serif;
+	min-height: 100vh;
+}
+/*h3{
+	font-family:"Roboto Condensed";
+
+}*/
+/*..header configuration starts here..*/
+img{
+	max-width: 100%;
+	height:auto;
+}
+.navbar{
+	margin-bottom: 0px;
+}
+.collapse ul li a{
+   color:#fff;
+   font-size: 15px;
+   padding-top: 23px;
+}
+.collapse .active a{
+	color: #7dc7d2;
+}
+.collapse ul li a:hover{
+	background:transparent;
+	color: #a3bccd;
+}
+.icon-bar{
+	background-color: #fff;
+}
+/*..box configuration starts here..*/
+#box{
+	
+	margin-top: 24px;
+	margin-bottom: 24px;
+	text-align: center;
+}
+.carousel-inner p{
+	padding-top:30px;
+	padding-right:0px;
+}
+.carousel-inner h1{
+	font-size:16px;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 2%;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);    
+}
+.carousel-indicators .active {
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background-color: #a3bccd;
+}
+/*.box a h1{
+	font-size:15px;
+	color:#fff;
+}*/
+
+.icon2:hover{
+	transform:scale(1.1);
+}
+.icon:hover{
+	transform: scale(1.1);
+}
+.icon1:hover{
+	transform: scale(1.1);
+}
+/*.gradient li{
+	display: inline-block;
+	margin:30px;
+	font-size: 20px;
+	font-weight: bold;
+	padding-left:100px;
+}
+.gradient li a{
+	color:white;
+}
+.gradient{
+	background-color: pink;
+	background-image:linear-gradient(to right, pink, violet);
+}*/
+/*..definition configuration starts here..*/
+.about p{
+	text-align:center;
+	margin:10px;
+	padding:35px 20px 35px 20px;
+	font-family:"Domine", serif;
+	font-size:18px;
+}
+#definition{
+	background-color: #f6f6f6;
+}
+
+/*..course configuration starts here..*/
+.course{
+	background-color: #f6f6f6;
+	padding-bottom:35px;
+	padding-left:30px;
+}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.nav-pills li a{
+	color:black;
+
+}
+.tab-content{
+	margin:20px;
+}
+.course ul li{
+	margin:7px;
+	font-size:20px;
+	font-weight:bold;
+}
+.gallery{
+ padding-bottom: 10px;
+}
+/*..testimonial configuration starts here..*/
+#testimonial{
+	
+	padding:30px 40px 30px 40px;
+	text-align: center;
+}
+#demo{
+	text-align: center;
+}
+.testimonial h3{
+	font-size:25px;
+	font-weight:bold;
+}
+/* .testimonial_btn{
+    background-color: #373d4b !important;
+    color: #fff !important;
+    float: left;
+    margin-right:100px;
+ }*/
+
+/*.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  }
+  .avatar1{
+  	vertical-align: middle;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  }
+  .avatar2{
+  	vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  }*/
+  #quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 40px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+/*.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}*/
+ 
+/*..footer starts here..*/
+#footer{
+	color:#afc4d1;
+	background-color: #004573;
+	padding-top: 17px;
+	text-align: center;
+}
+.footer h3{
+	color:#fff;
+}
+.navi li{
+	list-style-type: none;
+	padding-right: 42px;
+}
+.footer-item a{
+	color: #afc4d1;
+}
+.navi li a:hover{
+	background:transparent;
+	color: #fff;
+	text-decoration: none;
+}
+.info li{
+	list-style-type: none;
+	text-align: center;
+}
+.social li{
+	display: inline-block;
+	padding-right:20px;
+}
+
+.copyright{
+	margin:10px auto;
+	text-align: center;
+	color:#afc4d1;
+	border-top:2px dotted #a3bccd;
+	padding:20px 0 20px 0;
+}
