@@ -1,0 +1,25 @@
+.responsive{
+	width: 100%
+	height:auto;
+	padding:10px 0 20px 0;
+}
+.back h2,h5{
+ text-align: center;
+}
+h5{
+	color:#aeaeae;
+}
+.paragraph{
+	font-family: open sans, sans-serif;
+	font-size:18px;
+	font-weight:400;
+	padding:10px 0 20px 0;
+}
+ h4{
+	color: #541757;
+	display:inline;
+}
+a i{
+	padding-top:30px;
+	padding-right:10px;
+}

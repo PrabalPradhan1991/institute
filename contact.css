@@ -28,11 +28,14 @@ h3{
 	font-weight: 600px;
 }
 h5{
-	font-size: 20px;
+	font-size: 17px;
 }
 .address{
 	padding-left:90px;
 	margin-top:20px;
+}
+.address a{
+	color:black;
 }
 .form-group{
 	margin-bottom: 0;
@@ -41,11 +44,11 @@ h5{
 	padding-left:90px;
 }
 .btn-info{
-	background-color:#004573;
-	border-color: #004573;
+	background-color:#541757;
+	border-color: #541757;
 	margin:15px 0 15px 0;
 }
 .btn-info:hover{
-	background-color: #afc4d1;
-	border-color: #afc4d1;
+	background-color: #c2acd3;
+	border-color: #c2acd3;
 }

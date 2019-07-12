@@ -2,7 +2,7 @@
 	text-align:center;
 	margin:10px;
 	padding:35px 20px 35px 20px;
-	font-family:"Domine", serif;
+	font-family:open sans, sans-serif;
 	font-size:18px;
 }
  h3{
@@ -10,7 +10,9 @@
 }
 .objectives li{
 	padding:0 20px 35px 20px;
+	list-style: none;
 }
 .benefits li{
 	padding:0 20px 35px 20px;
+	list-style-type: none;
 }

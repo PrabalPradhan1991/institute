@@ -14,7 +14,10 @@ body{
 
 }*/
 /*..header configuration starts here..*/
-img{
+.header .container-fluid{
+  padding:0;
+  }
+  img{
 	max-width: 100%;
 	height:auto;
 }
@@ -27,28 +30,21 @@ img{
    padding-top: 23px;
 }
 .collapse .active a{
-	color: #7dc7d2;
+	color: #fddf60;
 }
 .collapse ul li a:hover{
 	background:transparent;
-	color: #a3bccd;
+	color: #02bdd5;
 }
 .icon-bar{
 	background-color: #fff;
 }
-/*..box configuration starts here..*/
-#box{
-	
-	margin-top: 24px;
-	margin-bottom: 24px;
-	text-align: center;
-}
 .carousel-inner p{
-	padding-top:30px;
-	padding-right:0px;
+  padding-top:30px;
+  padding-right:0px;
 }
 .carousel-inner h1{
-	font-size:16px;
+  font-size:16px;
 }
 .carousel-indicators li {
     display: inline-block;
@@ -66,8 +62,16 @@ img{
     width: 10px;
     height: 10px;
     margin: 10px;
-    background-color: #a3bccd;
+    background-color: #c2acd3;
 }
+/*..box configuration starts here..*/
+#box{
+	
+	margin-top: 24px;
+	margin-bottom: 24px;
+	text-align: center;
+}
+
 /*.box a h1{
 	font-size:15px;
 	color:#fff;
@@ -101,13 +105,17 @@ img{
 	text-align:center;
 	margin:10px;
 	padding:35px 20px 35px 20px;
-	font-family:"Domine", serif;
+	font-family:helvetica neue, sans-serif;
 	font-size:18px;
 }
 #definition{
 	background-color: #f6f6f6;
 }
-
+/*..video starts here..*/
+.video{
+  padding-top: 5px;
+}
+/*..video ends here..*/
 /*..course configuration starts here..*/
 .course{
 	background-color: #f6f6f6;
@@ -136,7 +144,9 @@ div.desc {
 }
 .nav-pills li a{
 	color:black;
-
+ }
+.nav-pills li.active a{
+   background-color: #541757 !important;
 }
 .tab-content{
 	margin:20px;
@@ -146,6 +156,7 @@ div.desc {
 	font-size:20px;
 	font-weight:bold;
 }
+
 .gallery{
  padding-bottom: 10px;
 }
@@ -237,8 +248,8 @@ div.desc {
  
 /*..footer starts here..*/
 #footer{
-	color:#afc4d1;
-	background-color: #004573;
+	color:#fff;
+	background-color: #541757;
 	padding-top: 17px;
 	text-align: center;
 }
@@ -250,11 +261,11 @@ div.desc {
 	padding-right: 42px;
 }
 .footer-item a{
-	color: #afc4d1;
+	color: #fff;
 }
 .navi li a:hover{
 	background:transparent;
-	color: #fff;
+	color: #02bdd5;
 	text-decoration: none;
 }
 .info li{
@@ -269,7 +280,7 @@ div.desc {
 .copyright{
 	margin:10px auto;
 	text-align: center;
-	color:#afc4d1;
-	border-top:2px dotted #a3bccd;
+	color:#fff;
+	border-top:2px dotted #c2acd3;
 	padding:20px 0 20px 0;
 }
