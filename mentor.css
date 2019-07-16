@@ -1,0 +1,34 @@
+
+.overlay{
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color: #fff;
+	opacity: 0.5;
+	overflow: hidden;
+	width: 0;
+	height: 100%;
+	transition: .5s ease;
+}
+.faces:hover .overlay{
+	width: 100%;
+}
+.text{
+	color: #541757;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
+	white-space: nowrap;
+}
+.image{
+	display: block;
+	width: 100%;
+	height: auto;
+	padding-top:30px;
+	padding-bottom: 40px;
+}
