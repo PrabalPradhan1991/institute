@@ -10,6 +10,7 @@
 	width: 0;
 	height: 100%;
 	transition: .5s ease;
+	text-align: center;
 }
 .faces:hover .overlay{
 	width: 100%;
@@ -23,7 +24,8 @@
 	-webkit-transform:translate(-50%, -50%);
 	-ms-transform:translate(-50%, -50%);
 	transform:translate(-50%, -50%);
-	white-space: nowrap;
+	word-wrap: break-word;
+	width: 100%;
 }
 .image{
 	display: block;

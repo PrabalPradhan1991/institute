@@ -212,9 +212,17 @@ div.desc {
     float: left;
     margin-right: 10px;
 }*/
- 
+#page-container{
+  min-height: 100%;
+  position: relative;
+}
 /*..footer starts here..*/
 #footer{
+  position: absolute;
+  bottom:0;
+  width: 100%;
+
+
 	color:#fff;
 	background-color: #541757;
 	padding-top: 17px;
@@ -250,4 +258,34 @@ div.desc {
 	color:#fff;
 	border-top:2px dotted #c2acd3;
 	padding:20px 0 20px 0;
+}
+
+@media screen and (max-width: 320px) {
+ #content-wrap {
+  padding-bottom: 716px;
+ } 
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+ #content-wrap {
+  padding-bottom: 844px;
+ } 
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+ #content-wrap {
+  padding-bottom: 908px;
+ } 
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+ #content-wrap {
+  padding-bottom: 355px;
+ } 
+}
+
+@media screen and (min-width: 1025px) {
+ #content-wrap {
+  padding-bottom: 372px;
+ } 
 }
