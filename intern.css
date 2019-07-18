@@ -3,3 +3,33 @@
 	bottom:0;
 	width: 100%;
 }
+.overlay{
+	background-color: rgb(192,192,192);
+	opacity: 0.6;
+}
+ .intern-definition{
+	text-align:center;
+	margin:10px;
+	padding:15px 20px 15px 20px;
+	font-family:open sans, sans-serif;
+	font-size:18px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.responsive-img{
+	width:100%;
+	height: 100%;
+	display: block;
+}
+.companies h4{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.companies .col-xs-3{
+	padding-right: 0;
+}
